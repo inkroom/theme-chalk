@@ -35,6 +35,7 @@
   }
 
   &:active {
+          background-color: $--background-color-active;
     color: mix($--color-black, $--color-primary, $--button-active-shade-percent);
     border-color: mix($--color-black, $--color-primary, $--button-active-shade-percent);
     outline: none;
@@ -53,13 +54,13 @@
   @include when(plain) {
     &:hover,
     &:focus {
-      background: $--color-white;
+      background: $--background-color-focus;
       border-color: $--color-primary;
       color: $--color-primary;
     }
 
     &:active {
-      background: $--color-white;
+      background: $--background-color-active;
       border-color: mix($--color-black, $--color-primary, $--button-active-shade-percent);
       color: mix($--color-black, $--color-primary, $--button-active-shade-percent);
       outline: none;
@@ -90,7 +91,7 @@
       &,
       &:hover,
       &:focus {
-        background-color: $--color-white;
+        background-color: $--background-color-focus;
         border-color: $--button-disabled-border-color;
         color: $--button-disabled-font-color;
       }
