@@ -1,5 +1,5 @@
-# element-theme-chalk
-> element component chalk theme.
+# element-theme-dark
+> 黑色主题，目前仅完成了按钮、tab部分.
 
 
 ## Installation
@@ -31,3 +31,5 @@ import 'element-theme-chalk/lib/select.css';
 
 // ...
 ```
+
+### 效果如下
